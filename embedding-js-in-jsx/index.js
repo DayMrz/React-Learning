@@ -8,7 +8,6 @@ class JSXDemo extends React.Component {
     return (
     <div>
       <h1>Hey! My mood today is {getMood()}</h1>
-
     </div>
     )
   }

@@ -1,0 +1,20 @@
+Properties Requirements
+ * Properties are for configuring your component
+ * Properties are IMMUTABLE
+
+* Properties can be strings 
+  <User name="Day" title="very silly" />
+
+For other types, embed Js expression using the curly braces:
+  <User 
+    name="Zelda" 
+    salary="{10000}
+    hobbies={["jumping", Collecting Memories", "announce the blood moon"]} quote="Be careful Link" 
+    data={[1, 2, 3, 4, 5]}
+  />
+
+  Note:
+    if I need a string 
+      num="3"
+    but to embed a number 
+      num={3}

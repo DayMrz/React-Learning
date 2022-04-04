@@ -23,7 +23,7 @@ class NumPicker extends React.Component {
 }
 
 
-ReactDOM.render(<NumPicker />, document.getElementById('root'))
+ReactDOM.render((<NumPicker />, document.getElementById('root'))
 
 
 
